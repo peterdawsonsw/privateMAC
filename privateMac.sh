@@ -26,10 +26,12 @@ while [ true ]
 do
 
 echo "This is may be your WiFi adapter:"
-iw dev | awk '$1=="Interface"{print $2}'
+deviceMac=$(iw dev | awk '$1=="Interface"{print $2}')
+echo -e "${COLOR}$deviceMac${ENDCOLOR}"
 
 echo "Press enter if you want to use adapter: "
-echo "$device"
+echo $device
+
 
 echo "Enter the Adapter's name:"
 read ADAPTER
