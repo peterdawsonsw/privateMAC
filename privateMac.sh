@@ -7,6 +7,7 @@
 #https://www.baeldung.com/linux/unary-operator-expected-error
 #https://www.youtube.com/watch?v=wNzuvl6_NSY
 #https://dev.to/ifenna__/adding-colors-to-bash-scripts-48g4
+#https://www.tecmint.com/assign-linux-command-output-to-variable/
 
 COLOR="\e[31m"
 ENDCOLOR="\e[0m"

@@ -10,9 +10,8 @@ the need for your personal hotspot, VPNs or a proxy service.
 ### How to use
 Add the privateMAC.sh to your pay and then run the following
 
-'''sh
+chmod +x ./privatMac.sh
+sudo ./privateMAC.sh
 
-sudo privateMAC.sh
 
-'''
 
