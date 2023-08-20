@@ -8,7 +8,7 @@ privateMAC allows you to use public WiFi without being fingerprinted by your wif
 (MAC address) media access control address 
 
 ### How to use
-Add the privateMAC.sh to your pay and then run the following
+Add the privateMAC.sh to your path and then run the following
 
 chmod +x ./privatMac.sh;
 
